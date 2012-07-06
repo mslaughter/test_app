@@ -7,6 +7,10 @@ class ScratchController < ApplicationController
     render :text => rest_graph.get('me').inspect
   end
   
+  def feed
+    render :text => rest_graph.get('me/home').inspect
+  end
+  
   private
     def filter_setup_rest_graph
       rest_graph_setup(:auto_authorize => true)
