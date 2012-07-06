@@ -1,0 +1,10 @@
+development:
+    app_id: '338831512860995'
+    secret: '26f1cfed170b6194a713e802477a4e1a'
+    callback_host: 'localhost:3000'
+
+production:
+    app_id: '338831512860995'
+    secret: '26f1cfed170b6194a713e802477a4e1a'
+    canvas: 'test_app_melissa'
+    callback_host: 'vivid-sky-9769.herokuapp.com'
